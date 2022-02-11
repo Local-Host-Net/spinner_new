@@ -36,7 +36,7 @@ type Spinner2 struct {
 
 // New returns a spinner initialized with Default frames.
 func New2() *Spinner2 {
-	s := &Spinner{}
+	s := &Spinner2{}
 	s.Set(Default)
 	return s
 }
